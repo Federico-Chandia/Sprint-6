@@ -1264,11 +1264,6 @@ VALUES
   ("7298 Ante Av.","Ashburton","Madrid","Chile",100);
 
 -- ITEM OCHO
-ALTER TABLE cuenta
-ADD COLUMN tipos_de_cuentas_id
-/* No pude poner a tipos_de_cuentas_id como una fk porque,
-según lo que encontré en Google, SQLite no admite ADD CONSTRAINT
-en ALTER TABLE */
 
 -- ITEM NUEVE
  INSERT INTO `cuenta` (`tipos_de_cuentas_id`)

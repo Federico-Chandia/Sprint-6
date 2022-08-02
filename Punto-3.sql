@@ -17,7 +17,7 @@ where customer_name = 'Brendan'
 order by años desc;
 
 select * from prestamo
-where (prestamo.loan_total > 8000000 
+where (prestamo.loan_total > 80000 
 or prestamo.loan_type = 'PRENDARIO')
 ORDER BY loan_total;
  
